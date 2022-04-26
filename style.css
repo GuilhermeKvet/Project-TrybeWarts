@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  font-family: fantasy;
+  font-weight: 700;
+}
+
+/* Mexe no Header */
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 80px;
+}
+
+.trybewarts-header-logo {
+  height: 70px;
+}
+
+.trybewarts-login {
+  display: flex;
+  flex-basis: 400px;
+}
+
+#trybewarts-header-title {
+  color: white;
+  font-weight: 600;
+}
+
+main {
+  display: flex;
+  background-color: rgb(231, 229, 229);
+}
+
+#evaluation-form {
+  display: flex;
+  flex-basis: 675px;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 80px;
+}
+
+.inputStyle {
+  border-radius: 5px;
+  border: 1px solid rgb(165, 164, 164);
+  height: 35px;
+  padding: 15px;
+}
+
+.mid-forns {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
+.radios-buttons {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.checkbox-container {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.matter {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 80%;
+}
+
+.matterCheckbox {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+}
+
+.feedback {
+  display: flex;
+  align-items: center;
+}
+
+.evaluation {
+  margin-left: 15px;
+}
+
+.checkbox {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#submit-btn {
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+}
